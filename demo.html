@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Page</title>
+    <style>
+        #container{
+            height: 100%;
+            width: 100%;
+            border: 1px solid red;
+        }
+        #container>#top{
+            height: auto;
+            width: 85%;
+            display: flex;
+            justify-content: space-between  ;
+            margin: auto;
+            padding-top: 70px;
+        }
+        #top1>h1{
+            font-size:40px;
+        }
+        #top1>p{
+            font-size:18px;
+            line-height: 30px;
+            color: rgb(82, 72, 72);
+        }
+        #top1>button{
+            padding: 12px 25px;  
+            font-size: 16px;
+            font-weight: bold;
+            border: 1px solid grey;
+            border-radius: 5px;
+        }
+        #top1>.top1btn{
+            background-color: rgb(45, 185, 45);
+            color: white;
+            margin-right: 7px;
+        }  
+        
+        #secondtop{
+            height: auto;
+            width: 85%;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            margin-top: 100px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        #secondtop>div{
+            width: 20%;
+        }
+        #secondtop>div>p{
+            line-height: 25px;
+            font-size: 17px;
+            color: rgb(82, 72, 72);
+        }
+        #secondtop>div>button{
+            padding: 10px 20px;  
+            font-size: 12px;
+            font-weight: bold;
+            border: 1px solid grey;
+            border-radius: 4px;
+            background-color: white;
+            margin-top: 24px;
+        }
+        .shadow{
+            -webkit-box-shadow: 0 0 .75rem rgba(0,0,0,.12)!important;
+            box-shadow: 0 0 .75rem rgba(0,0,0,.12)!important;
+        }
+
+        .box{
+            height: auto;
+            width: 85%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 50px;
+            padding-bottom: 50px;            
+        }
+        .box>div{
+            width: 48%;
+        }
+        .box>div>iframe{
+            padding-top: 50px;
+        }
+        .para1{
+            line-height: 28px;
+            font-size: 18px;
+            color: rgb(82, 72, 72);
+        }
+        .para2{
+            font-size: 18px;
+            color: rgb(82, 72, 72);
+        }
+        .trialbtn,.demobtn{
+            padding: 12px 25px;  
+            font-size: 16px;
+            font-weight: bold;
+            border: 1px solid grey;
+            border-radius: 5px;
+        }
+        .trialbtn{
+            background-color: rgb(45, 185, 45);
+            color: white;
+            margin-right: 7px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="top">
+        <div id="top1">
+            <h1>Get a super quick in-depth <br> demo of DeskTime</h1>
+            <p>What’s the best way to find out if DeskTime works for you? Try it yourself! <br> We’ll give you a personalized 1:1 DeskTime demo and answer any <br> questions you might have.</p>
+            <button class="top1btn">BOOK A DEMO</button>
+            <button>START A FREE TRIAL</button>
+        </div>
+        <div id="top2">
+            <img src="https://desktime.com/static/web/demo/demo-of-desktime.png" alt="">
+        </div>
+    </div>
+    <div id="secondtop">
+        <div>
+            <img src="https://desktime.com/static/web/demo/magnify.svg" alt="">
+            <h3>Demo account</h3>
+            <p>Learn how DeskTime tracks time, explore the dashboard and try all the available features in this self-guided DeskTime demo.</p>
+            <button>EXPLORE</button>
+        </div>
+        <div>
+            <img src="https://desktime.com/static/web/demo/chat.svg" alt="">
+            <h3>Live demo</h3>
+            <p>Sign up for a 1:1 demo call with our product expert, take a personalized tour and get answers to any questions you might have.</p>
+            <button style="margin-top: -1px;">BOOK A DEMO</button>
+        </div>
+        <div>
+            <img src="https://desktime.com/static/web/demo/webinar.svg" alt="">
+            <h3>Webinars</h3>
+            <p>Watch on-demand webinars and tutorials to make sure you get the most out of all the features DeskTime has to offer.</p>
+            <button>WATCH NOW</button>
+        </div>
+        <div>
+            <img src="https://desktime.com/static/web/demo/form.svg" alt="">
+            <h3>Sign Up</h3>
+            <p>Find out what time tracking means, add team members, and test the project feature for effective workflow management.</p>
+            <button>START A FREE TRIAL</button>
+        </div>
+    </div>
+    <div id="middle">
+        <div class="shadow">
+            <div class="box">
+                <div class="leftdiv">
+                    <h1 class="heading1">DeskTime for Teams</h1>
+                    <p class="para1">Watch this tutorial to learn how to keep track of your employees' work with the Admin features of DeskTime, find out how to add team members, manage work schedules, create reports, and more.</p>
+                    <p class="para1">With DeskTime you can plan and create shifts, manage absences and use the Project tracking feature to see who is working on what and for how long.</p>
+                    <p class="para2">Keep track of processes and goals.</p>
+                    <p class="para2">Set Automatic time & project tracking.</p>
+                    <p class="para2">Grasp shift and absence scheduling.</p>
+                    <button class="trialbtn">START A FREE TRIAL</button>
+                    <BUtton class="demobtn">BOOK A DEMO </BUtton>
+                </div>
+                <div class="rightdiv">
+                    <iframe width="100%" height="302" src="https://www.youtube.com/embed/uFl2-NstWtc" title="DeskTime for Teams" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="shadow">
+                <div class="box">
+                    <div class="rightdiv">
+                        <iframe width="100%" height="304" src="https://www.youtube.com/embed/dXNTGAttl6Y" title="DeskTime for Employees" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
+                    </div>
+                    <div class="leftdiv">
+                        <h1 class="heading1">DeskTime for Employees</h1>
+                        <p class="para1">If you're working in a company that tracks your work hours with DeskTime, this video guide is for you.</p>
+                        <p class="para1">Learn what DeskTime’s time tracking app is, how to navigate it, use its features, such as Projects, Work Schedules, Absence calendar, Reports, and more.</p>
+                        <p class="para2">Identify your computer usage habits.</p>
+                        <p class="para2">Improve upon work plan & execution.</p>
+                        <p class="para2">See what's causing constraints in your day.</p>
+                        <button class="trialbtn">START A FREE TRIAL</button>
+                        <BUtton class="demobtn">BOOK A DEMO </BUtton>
+                    </div>
+                </div>
+                
+        </div>
+        <div class="shadow">
+            <div class="box">
+                <div class="leftdiv">
+                    <h1 class="heading1">DeskTime for Freelancers</h1>
+                    <p class="para1">This guide explores the main features of DeskTime for freelancers and shows how to manage projects, create reports, and change the settings specific to you.</p>
+                    <p class="para1">Using DeskTime is a great way to never again get underpaid for the time invested in your clients' projects.</p>
+                    <p class="para2">Track time spent on specific projects.</p>
+                    <p class="para2">Use the Cost calculation feature.</p>
+                    <p class="para2">Boost productivity to raise your income.</p>
+                    <button class="trialbtn">START A FREE TRIAL</button>
+                    <BUtton class="demobtn">BOOK A DEMO </BUtton>
+                </div>
+                <div class="rightdiv">
+                    <iframe width="100%" height="304" src="https://www.youtube.com/embed/pl3kbM9mC08" title="DeskTime for Freelancers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="secondmiddle">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    
+</script>
