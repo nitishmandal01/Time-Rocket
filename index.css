@@ -3,7 +3,7 @@ body{
 }
 
 div{
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 #hero-section{
@@ -50,7 +50,7 @@ div{
     font-weight: bolder;
     border-radius: 3px;
 }
-#hero-first>div>h1{
+.h1{
     font-size: 42px;
     color: #333c43;
     line-height: 54px;
@@ -74,4 +74,20 @@ div{
 }
 #hero-second img{
     margin: 0px 15px;
+}
+
+#second{
+    width: 85%;
+    display: flex;
+    margin: auto;
+}
+#second-left{
+    width: 70%;
+    height: 400px;
+}
+
+#card-wrapper{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: none;
 }
