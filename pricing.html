@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Time Rocket</title>
     <link rel="stylesheet" href="pricing.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div id="header_plan">
@@ -19,22 +22,22 @@
           <a href="here">here</a>.
         </p>
         <div id="duration_button">
-          <button>Monthly</button>
-          <button>Annual</button>
+          <button onclick="myFunction1()"><strong>Monthly</strong></button>
+          <button onclick="myFunction2()"><strong>Annual</strong></button>
         </div>
 
         <p>1 Month free with annual plan</p>
       </div>
       <div class="header_logo">
-        <img
+        <img onclick="myFun1()"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO4hqz-1jqFnH_w6OvtFjJJZvX6yJ5julBrA&usqp=CAU"
           alt=""
         />
-        <img
+        <img onclick="myFun2()"
           src="data:image/jpeg;base64,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"
           alt=""
         />
-        <img
+        <img onclick="myFun3()"
           src="data:image/jpeg;base64,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"
           alt=""
         />
@@ -45,7 +48,7 @@
       <div id="pricing_plan">
         <div class="plan_features">
           <h3>Pro</h3>
-          <h1>₹560</h1>
+          <h1 id="innerText_change1">₹660</h1>
           <h4>user / month</h4>
           <button class="plan_button">START FREE TRAIL</button>
           <p>No credit card required.</p>
@@ -64,8 +67,8 @@
 
         <div class="plan_features_second">
           <h2>Best Value</h2>
-          <h3>Pro</h3>
-          <h1>₹560</h1>
+          <h3>Premium</h3>
+          <h1 id="innerText_change2">₹960</h1>
           <h4>user / month</h4>
           <button class="plan_button_second">START FREE TRAIL</button>
           <p>No credit card required.</p>
@@ -79,8 +82,8 @@
         </div>
 
         <div class="plan_features_third">
-          <h3>Pro</h3>
-          <h1>₹560</h1>
+          <h3>Expertise</h3>
+          <h1 id="innerText_change3">₹1540</h1>
           <h4>user / month</h4>
           <button class="plan_button">START FREE TRAIL</button>
           <p>No credit card required.</p>
@@ -157,16 +160,15 @@
       <div id="cepterra_second">
         <h1>DeskTime</h1>
         <div class="rating_star">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span><h2>4/5</h2></span>
-            <span><button>462 Reviews</button></span>
-            
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span><h2>4/5</h2></span>
+          <span><button>462 Reviews</button></span>
         </div>
-        
+
         <p>
           Reviews and ratings from real users of Cepterra -Software rating
           platform
@@ -174,64 +176,283 @@
       </div>
     </div>
 
-
-   
-    <!-- <div>
-        <div>
-            <h1></h1>
-        </div>
-        <div>
-            <thead>
-    
-                <tr class="table_row_first">
-                    <th class="dt-typography">Basic time tracking</th>
-                    <th class="dt-typography">Free</th>
-                    <th class="dt-typography">Pro</th>
-                    <th class="dt-typography">Premium</th>
-                    <th class="dt-typography">Enterprise</th>
-                </tr>
-        </div>
-    </div> -->
-
     <div>
-        <div>
-            <h1>More than 18 000 companies worldwide trust DeskTime with their business</h1>
+      <div class="slide_h1">
+        <h1 class="h1_slides">
+          More than 18 000 companies worldwide trust DeskTime with their
+          business
+        </h1>
+      </div>
+
+      <div class="slideshow-container">
+        <div class="mySlides">
+          <div class="slide_parent">
+            <div class="slide_img">
+              <img
+                src="https://desktime.com/static/web/testimonial-images/brad.png"
+                alt=""
+              />
+            </div>
+            <div class="slide_details">
+              <h3>Tudor Brad</h3>
+              <p>Quality Assurance Manager</p>
+              <h4><u>Better QA</u></h4>
+            </div>
+          </div>
+
+          <p class="slide_p">
+            Better QA wants to be in a company where people can work from
+            anywhere they want, as long as they do their job. After researching
+            the market for multiple products, DeskTime fits like a glove, since
+            it does just that. I can easily say that employees are being more
+            productive when working 6 hours a day compared with the regular 9 AM
+            to 5 PM hour job.
+          </p>
         </div>
-        <div>
-            <img src="https://desktime.com/static/web/testimonial-images/brad.png" alt="">
-            <h3>Tudor Brad</h3>
-            <p>Quality Assurance Manager</p>
-            <h4><u>Better QA</u></h4>
-            <p>Better QA wants to be in a company where people can work from anywhere they want, as long as they do their job. After researching the market for multiple products, DeskTime fits like a glove, since it does just that. I can easily say that employees are being more productive when working 6 hours a day compared with the regular 9 AM to 5 PM hour job.</p>
+        <div class="mySlides">
+          <div class="slide_parent">
+            <div class="slide_img">
+              <img
+                src="https://desktime.com/static/web/testimonial-images/zelma.png"
+                alt=""
+              />
+            </div>
+            <div class="slide_details">
+              <h3>Zelma Diana Vidina</h3>
+              <p>Managing Director</p>
+              <h4>AD VERBUM</h4>
+            </div>
+          </div>
+
+          <p class="slide_p">
+            DeskTime has helped us find new ways to automate our workflows to
+            free up time for important things like strengthening relationships
+            with our customers.
+          </p>
         </div>
-        <div>
-            <img src="https://desktime.com/static/web/testimonial-images/zelma.png" alt="">
-            <h3>Zelma Diana Vidina</h3>
-            <p>Managing Director</p>
-            <h4>AD VERBUM</h4>
-            <p>DeskTime has helped us find new ways to automate our workflows to free up time for important things like strengthening relationships with our customers.</p>
+        <div class="mySlides">
+          <div class="slide_parent">
+            <div class="slide_img">
+              <img
+                src="https://desktime.com/static/web/testimonial-images/rizah.png"
+                alt=""
+              />
+            </div>
+            <div class="slide_details">
+              <h3>Ashish Mishra</h3>
+              <p>Founder & CEO</p>
+              <h4><u>SmartLab</u></h4>
+            </div>
+          </div>
+          <p class="slide_p">
+            I was thinking about if there is a solution which can gather me all
+            needed data about team productivity, and at the same time provide
+            more flexible working hours to all team members. I found it possible
+            with the DeskTime task and time management system. It is easy to
+            control everything and I don't need to worry about employee working
+            hours anymore.
+          </p>
         </div>
-        <div>
-            <img src="https://desktime.com/static/web/testimonial-images/rizah.png" alt="">
-            <h3>Rizah Kabasi</h3>
-            <p>Founder & CEO</p>
-            <h4><u>SmartLab</u></h4>
-            <p>I was thinking about if there is a solution which can gather me all needed data about team productivity, and at the same time provide more flexible working hours to all team members. I found it possible with the DeskTime task and time management system. It is easy to control everything and I don't need to worry about employee working hours anymore.</p>
+        <div class="mySlides">
+          <div class="slide_parent">
+            <div class="slide_img">
+              <img
+                src="https://desktime.com/static/web/testimonial-images/julia.png"
+                alt=""
+              />
+            </div>
+            <div class="slide_details">
+              <h3>Rizah Kabasi</h3>
+              <p>Founder & CEO</p>
+              <h4><u>SmartLab</u></h4>
+            </div>
+          </div>
+          <p class="slide_p">
+            With DeskTime I am able to see how productive my employees are and
+            how much work time they spend on work-related applications - that’s
+            something many other time tracking software don't have.
+          </p>
         </div>
-        <!-- <div>
-            <img src="https://desktime.com/static/web/testimonial-images/julia.png" alt="">
-            <h3>Rizah Kabasi</h3>
-            <p>Founder & CEO</p>
-            <h4><u>SmartLab</u></h4>
-            <p>I was thinking about if there is a solution which can gather me all needed data about team productivity, and at the same time provide more flexible working hours to all team members. I found it possible with the DeskTime task and time management system. It is easy to control everything and I don't need to worry about employee working hours anymore.</p>
+        <div class="mySlides">
+          <div class="slide_parent">
+            <div class="slide_img">
+              <img
+                src="https://desktime.com/static/web/testimonial-images/rob.png"
+                alt=""
+              />
+            </div>
+            <div class="slide_details">
+              <h3>Myra kelvin</h3>
+              <p>Founder & CEO</p>
+              <h4><u>SmartLab</u></h4>
+            </div>
+          </div>
+
+          <p class="slide_p">
+            I was thinking about if there is a solution which can gather me all
+            needed data about team productivity, and at the same time provide
+            more flexible working hours to all team members. I found it possible
+            with the DeskTime task and time management system. It is easy to
+            control everything and I don't need to worry about employee working
+            hours anymore.
+          </p>
         </div>
-        <div>
-            <img src="hhttps://desktime.com/static/web/testimonial-images/toms.png" alt="">
-            <h3>Rizah Kabasi</h3>
-            <p>Founder & CEO</p>
-            <h4><u>SmartLab</u></h4>
-            <p>I was thinking about if there is a solution which can gather me all needed data about team productivity, and at the same time provide more flexible working hours to all team members. I found it possible with the DeskTime task and time management system. It is easy to control everything and I don't need to worry about employee working hours anymore.</p>
-        </div> -->
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="FAQ_first">
+        <h1 id="FAQ_section">Frequently Asked Questions</h1>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button id="accordion-button-2" aria-expanded="false">
+              <span class="accordion-title">How much does DeskTime cost?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                DeskTime is free to try for 14 days and will always stay free
+                for individual use with the LITE plan. Pricing plans start at
+                $7/user and can go as low as $5.50/user for larger teams, if
+                paid annually. Find out more <a href="here">here.</a>
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-3" aria-expanded="false">
+              <span class="accordion-title">How can I subscribe?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                In order to start using DeskTime Pro, click on ‘Add payment
+                method’, choose the payment type - Credit card or PayPal, enter
+                billing details and click ‘Save payment method’. The selected
+                payment method will be automatically charged each billing cycle.
+                Read more <a href="here">here.</a>
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-4" aria-expanded="false">
+              <span class="accordion-title"
+                >What is the difference between monthly and annual
+                billing?</span
+              >
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                The monthly billing plan charges your payment method on the
+                first day of every month. The annual payment method charges once
+                a year on the date when the plan was started, and offers a free
+                month of subscription compared to the monthly plan. Find out
+                more <a href="here">here.</a>
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+              <span class="accordion-title"
+                >How can I add or remove users from my plan?</span
+              >
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                To change the amount of users in your plan, click on the “Manage
+                members“ option under “Team members count“. From there you can
+                select the new amount of employees you need using the slider and
+                clicking “Update“. For a more detailed guide,
+                <a href="read this article.">read this article.</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="companies_list">
+      <div class="list_top">
+        <h1 id="h1_list">Also seen in</h1>
+      </div>
+      <div class="list_img">
+        <img
+          src="https://desktime.com/static/web/pricing/observer-logo.svg"
+          alt=""
+        />
+        <img
+          src="https://desktime.com/static/web/pricing/ladders-logo.svg"
+          alt=""
+        />
+        <img
+          src="https://desktime.com/static/web/pricing/businessinsider-logo.svg"
+          alt=""
+        />
+        <img
+          src="https://desktime.com/static/web/pricing/lifehack-logo.svg"
+          alt=""
+        />
+        <img
+          src="https://desktime.com/static/web/pricing/verge-logo.svg"
+          alt=""
+        />
+        <img
+          src="https://desktime.com/static/web/pricing/wired-logo.svg"
+          alt=""
+        />
+        <img
+          src="https://desktime.com/static/web/pricing/glassdoor-logo.svg"
+          alt=""
+        />
+        <img
+          src="https://desktime.com/static/web/pricing/mashable-logo.svg"
+          alt=""
+        />
+        <img
+          src="https://desktime.com/static/web/pricing/forbes-logo.svg"
+          alt=""
+        />
+        <img
+          src="https://desktime.com/static/web/pricing/thewashingtonpost-logo.svg"
+          alt=""
+        />
+        <img
+          src="https://desktime.com/static/web/pricing/themuse-logo.svg"
+          alt=""
+        />
+        <img
+          src="https://desktime.com/static/web/pricing/yahoofinance-logo.svg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="trail_section">
+      <div class="trail_first">
+        <h1 class="trail_h1">Ready for your free trial?</h1>
+      </div>
+      <div class="trail_details">
+        <input class="trail_input" type="text" placeholder="Your Work Email" />
+        <button class="trail_button"><strong>START FREE TRAIL</strong></button>
+      </div>
+      <div>
+        <p class="trail_p">
+          Try free for 14 days. No credit card required. <br />
+          By signing up, you agree to our
+          <a href="terms"><strong>terms</strong></a> and
+          <a href="privacy policy."><strong>privacy policy.</strong></a>
+        </p>
+      </div>
     </div>
   </body>
 </html>
+
+<script src="pricing.js"></script>
