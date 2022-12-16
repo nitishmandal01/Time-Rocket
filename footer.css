@@ -1,0 +1,64 @@
+#footer1{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    width: 85%;
+    margin: auto;
+    gap: 30px;
+}
+#footer1>div>p{
+    color: rgb(82, 72, 72);
+}
+#footer2{
+    background-color: #ebecec;
+    padding: 30px;
+}
+#footer2>div{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+.footerlast{
+    display: flex;
+}  
+.footerlast>input{
+    height: 35px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}  
+.footerlast>button{
+    height: 40px;
+    padding: 10px 25px;
+    background-color: rgb(45, 185, 45);
+    color: white;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+.footerthird{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 30px;
+}
+.footerthird>img{
+    padding-left: 8px;
+}
+#endpoint>div{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+#endpoint{
+    background-color: #d6d8d9;
+}
+#endpoint>div>p{
+    font-size: 10px;
+}
+#endpoint>div>p{
+    font-size: 10px;
+}
+#endpoint>div>p>span{
+    font-size: 15px;
+}
