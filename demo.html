@@ -5,112 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo Page</title>
-    <style>
-        #container{
-            height: 100%;
-            width: 100%;
-            border: 1px solid red;
-        }
-        #container>#top{
-            height: auto;
-            width: 85%;
-            display: flex;
-            justify-content: space-between  ;
-            margin: auto;
-            padding-top: 70px;
-        }
-        #top1>h1{
-            font-size:40px;
-        }
-        #top1>p{
-            font-size:18px;
-            line-height: 30px;
-            color: rgb(82, 72, 72);
-        }
-        #top1>button{
-            padding: 12px 25px;  
-            font-size: 16px;
-            font-weight: bold;
-            border: 1px solid grey;
-            border-radius: 5px;
-        }
-        #top1>.top1btn{
-            background-color: rgb(45, 185, 45);
-            color: white;
-            margin-right: 7px;
-        }  
-        
-        #secondtop{
-            height: auto;
-            width: 85%;
-            display: flex;
-            justify-content: space-between;
-            margin: auto;
-            margin-top: 100px;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        #secondtop>div{
-            width: 20%;
-        }
-        #secondtop>div>p{
-            line-height: 25px;
-            font-size: 17px;
-            color: rgb(82, 72, 72);
-        }
-        #secondtop>div>button{
-            padding: 10px 20px;  
-            font-size: 12px;
-            font-weight: bold;
-            border: 1px solid grey;
-            border-radius: 4px;
-            background-color: white;
-            margin-top: 24px;
-        }
-        .shadow{
-            -webkit-box-shadow: 0 0 .75rem rgba(0,0,0,.12)!important;
-            box-shadow: 0 0 .75rem rgba(0,0,0,.12)!important;
-        }
 
-        .box{
-            height: auto;
-            width: 85%;
-            margin: auto;
-            display: flex;
-            justify-content: space-between;
-            padding-top: 50px;
-            padding-bottom: 50px;            
-        }
-        .box>div{
-            width: 48%;
-        }
-        .box>div>iframe{
-            padding-top: 50px;
-        }
-        .para1{
-            line-height: 28px;
-            font-size: 18px;
-            color: rgb(82, 72, 72);
-        }
-        .para2{
-            font-size: 18px;
-            color: rgb(82, 72, 72);
-        }
-        .trialbtn,.demobtn{
-            padding: 12px 25px;  
-            font-size: 16px;
-            font-weight: bold;
-            border: 1px solid grey;
-            border-radius: 5px;
-        }
-        .trialbtn{
-            background-color: rgb(45, 185, 45);
-            color: white;
-            margin-right: 7px;
-        }
+    
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-    </style>
 </head>
 <body>
 <div id="container">
@@ -158,9 +58,11 @@
                     <h1 class="heading1">DeskTime for Teams</h1>
                     <p class="para1">Watch this tutorial to learn how to keep track of your employees' work with the Admin features of DeskTime, find out how to add team members, manage work schedules, create reports, and more.</p>
                     <p class="para1">With DeskTime you can plan and create shifts, manage absences and use the Project tracking feature to see who is working on what and for how long.</p>
-                    <p class="para2">Keep track of processes and goals.</p>
-                    <p class="para2">Set Automatic time & project tracking.</p>
-                    <p class="para2">Grasp shift and absence scheduling.</p>
+
+                    <p class="para2"><span class="tick_mark">&#10003;</span> Keep track of processes and goals.</p>
+                    <p class="para2"><span class="tick_mark">&#10003;</span> Set Automatic time & project tracking.</p>
+                    <p class="para2"><span class="tick_mark">&#10003;</span> Grasp shift and absence scheduling.</p>
+
                     <button class="trialbtn">START A FREE TRIAL</button>
                     <BUtton class="demobtn">BOOK A DEMO </BUtton>
                 </div>
@@ -178,9 +80,11 @@
                         <h1 class="heading1">DeskTime for Employees</h1>
                         <p class="para1">If you're working in a company that tracks your work hours with DeskTime, this video guide is for you.</p>
                         <p class="para1">Learn what DeskTime’s time tracking app is, how to navigate it, use its features, such as Projects, Work Schedules, Absence calendar, Reports, and more.</p>
-                        <p class="para2">Identify your computer usage habits.</p>
-                        <p class="para2">Improve upon work plan & execution.</p>
-                        <p class="para2">See what's causing constraints in your day.</p>
+
+                        <p class="para2"><span class="tick_mark">&#10003;</span> Identify your computer usage habits.</p>
+                        <p class="para2"><span class="tick_mark">&#10003;</span> Improve upon work plan & execution.</p>
+                        <p class="para2"><span class="tick_mark">&#10003;</span> See what's causing constraints in your day.</p>
+
                         <button class="trialbtn">START A FREE TRIAL</button>
                         <BUtton class="demobtn">BOOK A DEMO </BUtton>
                     </div>
@@ -193,9 +97,11 @@
                     <h1 class="heading1">DeskTime for Freelancers</h1>
                     <p class="para1">This guide explores the main features of DeskTime for freelancers and shows how to manage projects, create reports, and change the settings specific to you.</p>
                     <p class="para1">Using DeskTime is a great way to never again get underpaid for the time invested in your clients' projects.</p>
-                    <p class="para2">Track time spent on specific projects.</p>
-                    <p class="para2">Use the Cost calculation feature.</p>
-                    <p class="para2">Boost productivity to raise your income.</p>
+
+                    <p class="para2"><span class="tick_mark">&#10003;</span> Track time spent on specific projects.</p>
+                    <p class="para2"><span class="tick_mark">&#10003;</span> Use the Cost calculation feature.</p>
+                    <p class="para2"><span class="tick_mark">&#10003;</span> Boost productivity to raise your income.</p>
+
                     <button class="trialbtn">START A FREE TRIAL</button>
                     <BUtton class="demobtn">BOOK A DEMO </BUtton>
                 </div>
@@ -206,13 +112,150 @@
         </div>
     </div>
     <div id="secondmiddle">
-        <div></div>
-        <div></div>
-        <div></div>
+
+        <div id="innersecondmiddle">
+            <div class="borderline">
+                <img src="https://desktime.com/static/web/_common/ratings/capterra-white-logo.svg" alt="">
+                <p>4 out of 5 stars from 320 reviews</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div >
+                <img src="https://desktime.com/static/web/_common/ratings/g2-crowd-white-logo.svg" alt="">
+                <p>4 out of 5 stars from 146 reviews</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="borderlineright">
+                <img src="https://desktime.com/static/web/_common/ratings/software-advice-white-logo.svg" alt="">
+                <p>4 out of 5 stars from 320 reviews</p>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </div>
+        </div>        
+    </div>
+    <div id="bottom">
+        <div>
+            <img src="https://desktime.com/static/web/demo/notebook.png" alt="">            
+        </div>
+        <div>
+            <h1>Not convinced yet? <br>
+                Check out our self-guided demo</h1>
+            <p>If you want the full scope of what you’re getting once you sign up, visit our demo account. You can try out all the features DeskTime has to offer.</p>
+            <button class="trialbtn">DEMO ACCOUNT</button>
+        </div>
+    </div>
+    <div id="secondbottom">
+        <h1>More than 18 000 companies worldwide trust DeskTime with their business</h1>
+        <div id="slider" class="main-carouse" data-flickity='{ "cellAlign": "left", "contain": true }'>
+            <div class="carousel-cell">
+                <div>
+                    <div>
+                        <div>
+                        <img width="100" src="https://desktime.com/static/web/testimonial-images/rizah.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Rizah Kabasi</h3>
+                        <p>Founder & CEO</p>
+                        <a href="">SmartLab</a>
+                    </div> 
+                    </div>
+                    <p>I was thinking about if there is a solution which can gather me all needed data about team productivity, and at the same time provide more flexible working hours to all team members. I found it possible with the DeskTime task and time management system. It is easy to control everything and I don't need to worry about employee working hours anymore.</p>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                        <img width="100" src="https://desktime.com/static/web/testimonial-images/rizah.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Rizah Kabasi</h3>
+                        <p>Founder & CEO</p>
+                        <a href="">SmartLab</a>
+                    </div> 
+                    </div>
+                    <p>I was thinking about if there is a solution which can gather me all needed data about team productivity, and at the same time provide more flexible working hours to all team members. I found it possible with the DeskTime task and time management system. It is easy to control everything and I don't need to worry about employee working hours anymore.</p>
+                </div> 
+                <div>
+                    <div>
+                        <div>
+                        <img width="100" src="https://desktime.com/static/web/testimonial-images/rizah.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Rizah Kabasi</h3>
+                        <p>Founder & CEO</p>
+                        <a href="">SmartLab</a>
+                    </div> 
+                    </div>
+                    <p>I was thinking about if there is a solution which can gather me all needed data about team productivity, and at the same time provide more flexible working hours to all team members. I found it possible with the DeskTime task and time management system. It is easy to control everything and I don't need to worry about employee working hours anymore.</p>
+                </div>
+            </div>
+             <div class="carousel-cell">
+                <div>
+                    <div>
+                        <div>
+                        <img width="100" src="https://desktime.com/static/web/testimonial-images/rizah.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Rizah Kabasi</h3>
+                        <p>Founder & CEO</p>
+                        <a href="">SmartLab</a>
+                    </div> 
+                    </div>
+                    <p>I was thinking about if there is a solution which can gather me all needed data about team productivity, and at the same time provide more flexible working hours to all team members. I found it possible with the DeskTime task and time management system. It is easy to control everything and I don't need to worry about employee working hours anymore.</p>
+                </div>
+                <div>
+                    <div>
+                        <div>
+                        <img width="100" src="https://desktime.com/static/web/testimonial-images/rizah.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Rizah Kabasi</h3>
+                        <p>Founder & CEO</p>
+                        <a href="">SmartLab</a>
+                    </div> 
+                    </div>
+                    <p>I was thinking about if there is a solution which can gather me all needed data about team productivity, and at the same time provide more flexible working hours to all team members. I found it possible with the DeskTime task and time management system. It is easy to control everything and I don't need to worry about employee working hours anymore.</p>
+                </div> 
+                <div>
+                    <div>
+                        <div>
+                        <img width="100" src="https://desktime.com/static/web/testimonial-images/rizah.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Rizah Kabasi</h3>
+                        <p>Founder & CEO</p>
+                        <a href="">SmartLab</a>
+                    </div> 
+                    </div>
+                    <p>I was thinking about if there is a solution which can gather me all needed data about team productivity, and at the same time provide more flexible working hours to all team members. I found it possible with the DeskTime task and time management system. It is easy to control everything and I don't need to worry about employee working hours anymore.</p>
+                </div>
+             </div>
+           
+        </div>                 
+    </div>
+    <div id="thirdbottom">
+        <div>
+        <h1>Join 400,000+ users already managing their time with the DeskTime app</h1>
+        <input type="text" name="" id="" placeholder="Your work email">
+        <button>GET STARTED</button>
+        <p>Try free for 14 days. No credit card required. <br>
+
+            By signing up, you agree to our terms and privacy policy.</p>
+        </div>        
+
     </div>
 </div>
 </body>
 </html>
-<script>
-    
-</script>
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
