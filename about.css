@@ -14,6 +14,7 @@
 
 #container {
     background-color: #f8f9fa;
+    margin: auto;
 }
 
 #component {
@@ -323,5 +324,418 @@
 .image-9{
     padding: 130px;
 }
+.img-1{
+    padding: 150px;
+}
+.prime h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.prime{
+padding-bottom: 100px;
+}
+.prime h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.prime p{
+    text-align: center;
+}
+.Export h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Export h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.img-2{
+    text-align: center;
+   padding-top: 5px;
+   padding-bottom: 100px;
+}
+.img-3{
+    padding: 110px;
+}
+.million h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+}
+.million h3{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.million p{
+    text-align: center;
+}
+.channel h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+.channel h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.channel p{
+    text-align: center;
+}
+.img-4{
+    padding: 110px;
+}
+.img-5{
+    padding: 110px;
+}
+.feature h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+.feature h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.feature p{
+    text-align: center;
+}
+.integration h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+.integration h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+.integration p{
+    text-align: center;
+}
+.img-6{
+    padding: 150px;
+}
+.img-7{
+    padding: 140px;
+}
+.serving h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+}
+.serving h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+.serving p{
+    text-align: center;
+}
+.timer h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;   
+}
+.timer h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+.timer p{
+    text-align: center;
+}
+.img-8{
+    padding: 90px;
+}
+.img-9{
+    padding: 110px;
+}
+.project h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+}
+.project h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+.project p{
+    text-align: center;
+    padding-bottom: 30px;
+} 
+.database h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;   
+}
+.database h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.database p{
+    text-align: center;
+}
+.img-10{
+    padding: 80px;
+}
+.img-11{
+    padding: 120px;
+}
+.calendar h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;   
+}
+.calendar h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.calendar p{
+    text-align: center;
+}
+.workday h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;   
+}
+.workday h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.workday p{
+    text-align: center;
+}
+.img-12{
+    padding: 110px;
+}
+.img-13{
+    padding: 70px;
+}
+.random h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;   
+}
+.random h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+.random p{
+    text-align: center;
+}
+.major h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;    
+}
+.major h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+.major p{
+    text-align: center;
+}
+.img-14{
+    padding: 90px;
+}
+.img-15{
+    padding: 110px;
+}
+.version h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;   
+}
+.version h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.version p{
+    text-align: center;
+}
+.discover h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;    
+}
+.discover h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.discover p{
+    text-align: center;
+}
+.im{
+padding: 110px;
+}
+.im-1{
+    padding: 90px;
+}
+.profit h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+.profit h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.profit p{
+    text-align: center;
+}
+.various h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+.various h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.various p{
+    text-align: center;
+}
+.im-4{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.im-5{
+    padding: 90px;
+}
+.diary{
+    padding-top: 120px;
+    text-align: center;
+}
+.diary h4{
+    color: #4ea819;
+    padding-bottom: 20px;
+}
+.diary h3{
+    padding-bottom: 20px;
+}
+.usa h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+
+}
+.usa h3{
+    margin-top: 10px;
+    text-align: center;
+}
+.usa p{
+    text-align: center;
+}
+.im-7{
+    padding: 130px;
+}
+.im-8{
+    padding: 90px;
+}
+.CEO h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+.CEO h3{
+    margin-top: 10px;
+    text-align: center; 
+}
+.CEO p{
+    text-align: center;
+}
+.growing h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+.growing h3{
+    margin-top: 10px;
+    text-align: center; 
+}
+.growing p{
+    text-align: center;
+}
+.im-20{
+    padding: 120px;
+}
+.im-30{
+    padding: 120px;
+}
+.weeks h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;  
+}
+.weeks h3{
+    margin-top: 10px;
+    text-align: center; 
+}
+.weeks p{
+    text-align: center;
+}
+.idea h4{
+    text-align: center;
+    color: #4ea819;
+    margin-bottom: 10px;
+    margin-top: 10px;    
+}
+.idea h3{
+    margin-top: 10px;
+    text-align: center;  
+}
+.idea p{
+    text-align: center;   
+}
+.im-40{
+    padding: 120px;
+}
+#video-section{
+   margin-left: 30%;
+   margin-top: 50px;
+   margin-bottom: 100px;
+}
+
+
+
+
+
 
 
