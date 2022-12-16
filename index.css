@@ -3,7 +3,7 @@ body{
 }
 
 div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #hero-section{
@@ -55,7 +55,7 @@ div{
     color: #333c43;
     line-height: 54px;
 }
-#hero-first>div>p{
+.p{
     color: #475056;
     font-size: 17.5px;
     line-height: 30px;
@@ -79,15 +79,72 @@ div{
 #second{
     width: 85%;
     display: flex;
+    justify-content: space-between;
     margin: auto;
+    height: 550px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    /* padding: 10px; */
+}
+#second img{
+    padding: 25px;
 }
 #second-left{
-    width: 70%;
-    height: 400px;
+    width: 60%;
+    height: auto;
 }
 
 #card-wrapper{
-    display: grid;
-    grid-gap: 10px;
-    grid-template-areas: none;
+    display: flex;
+    
+}
+.cards{
+    width: 50%;
+    height: 120px;
+    padding: 20px;
+}
+
+#third{
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 25px;
+    text-align: center;
+    
+}
+#third h1{
+    font-size: 35px;
+}
+#gray{
+    width: 100%;
+    background-color: #eceded;
+}
+
+.h1-color{
+color: #333c43;
+}
+
+#third-parts{
+    height: auto;
+    display: flex;
+    text-align: left;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+#third-parts>div{
+    width: 45%;
+}
+
+#third-left div{
+    margin-bottom: 30px;
+}
+#third-right img{
+    margin: 100px 0px 10px 0px;
+}
+
+#third-left p{
+    font-size: 17px;
+    line-height: 28px;
+    color: #475056;
 }
