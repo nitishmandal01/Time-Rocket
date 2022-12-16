@@ -1,5 +1,5 @@
 .main{
-    height: 700px;;
+    height: auto;;
     width: 100%;
     /* border: 1px solid red; */
 }
@@ -22,7 +22,8 @@
     margin-left: 350px;
    
 }
-#first{
+.first{
+   
     height: auto;
     width: 39%;
     display:grid;
@@ -46,13 +47,15 @@
     margin-top: -20px;
     font-size: 18px;
 }
-#search{
-    height: 45px;
-    width: 250px;
+.search{
+    height: 44px;
+    width: 230px;
+    padding-left: 10px;
+   
 }
-#btn{
-    height: 52px;
-    width: 250px ;
+.btn{
+    height: 50px;
+    width: 220px ;
     background-color:  #4ea819;
     color:white;
     border: none;
@@ -98,19 +101,29 @@
     
     color: #4d5056;
 }
+#desk>h1{
+    text-align: center;
+    margin-top: 40px;
+}
+#desk>p{
+    text-align: center;
+    color:#4d5056
+}
 #solution{
     height:auto;
     width: 100%;
   /* border: 1px solid red; */
-  background-color: #ebecec;
+  background-color: #fefefe;
    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   padding-top: 20px;
+   padding-bottom: 50px;
 }
-#desk{
+#morek{
     text-align: center;
    
     padding-top: 50px;
 }
-#desk>p{
+#morek>p{
  margin-top: 0px;
  font-size: 20px;
 }
@@ -266,17 +279,18 @@
     cursor: pointer;
     background-color: #43762b;;
 }
-#color{
-    height: 100px;
+.color{
+    height: 80px;
     width: 100%;
     border: 1px solid white;
     background-color: #2693f8;
    
     align-items: center;
+    margin-top: 40px;
 }
-#color>h1{
+.color>h1{
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
 }
 #lower{
@@ -452,19 +466,20 @@
  .ram{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    height: 400px;;
+    height: auto;;
     width: 100%;
     /* border: 1px solid red; */
  }
  .shyam{
-    height: 400px;
+    height: auto;
     width: 100%;
     /* border: 1px solid red; */
     text-align: center;
     
  }
  .shyam>img{
-    margin-top: 40px;
+    margin-top: 60px;
+    width: 80%;
  }
  .mohan{
     height:
@@ -474,7 +489,7 @@
     font-size: 20px;
     padding-top: 30px;
  }
- .mohan>h{
+ .mohan>h1{
     margin-top: 50px;
  }
  .mohan>p{
@@ -496,8 +511,9 @@
  .fan{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    height: 400px;
+    height: auto;
     max-width:100%;
+    margin-top: 20px;
     /* border: 1px solid red; */
  }
  .bulb{
@@ -516,7 +532,7 @@
     margin-top: 90px;
  }
  .hold{
-    height: 400px;
+    height: auto;
     max-width: 100%;
     /* border: 1px solid red ; */
       text-align: center;
@@ -527,7 +543,7 @@
 
 
   }
- .desktop{
+ .morektop{
     display: block;
     height: 50px;
     width: 450px;
@@ -536,9 +552,10 @@
     background-color: #4ea819;
     border-radius: 4px;
     border: 0px;
+    margin-top: 20px;
  
  }
- .desktop>a{
+ .morektop>a{
     text-decoration: none;
     max-width: 500px;
     border-radius: 5px;
@@ -546,6 +563,424 @@
     color: white;
  }
 
+ .morektop:hover{
+    background-color: #43762b;;
+ }
+ .rama{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: auto;;
+    width: 100%;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+ }
+ .shyama{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid red; */
+    text-align: center;
+    
+ }
+ .shyama>img{
+    margin-top: 40px;
+ }
+ .mohana{
+    height:
+    auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    font-size: 20px;
+    padding-top: 30px;
+ }
+ .mohana>h1{
+    margin-top: 90px;
+ }
+ .mohana>p{
+    color:#4d5056
+ }
+ .morektopt>a{
+    text-decoration: none;
+    max-width: 500px;
+    border-radius: 5px;
+    
+    color: white;
+ }
+
+ .morektopt:hover{
+    background-color: #43762b;;
+ }
+ .integrate{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height:auto;;
+    width: 100%;
+    /* border: 1px solid red; */
+ }
+ .integrate1{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+    
+ }
+ .integrate>img{
+    margin-top: 40px;
+    width: 50%;
+ }
+ .integrate3{
+    height:
+    auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    font-size: 20px;
+    padding-top: 30px;
+ }
+ .integrate3>h1{
+    margin-top: 50px;
+ }
+ .integrate3>p{
+    color:#4d5056
+ }
+ .startTracking{
+    height: auto;
+    max-width: 100%;
+    border: 1px solid white;
+    background-color: #4ea819;
+    padding-bottom: 40px;
+ }
+ .startTracking>div>h1{
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+ }
+ .startTracking>div>p{
+    
+    text-align: center;
+    color: white;
+    font-size: 20px;
+ }
+ .searchbar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 60px;;
+    max-width: 40%;
+    /* border: 1px solid red; */
+    margin: auto;
+ }
+ #textinput{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+ }
+ #get{
+    height:46px;
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 3px;
+    background-color: #4ea819;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border: 1px solid white;
+ }
+ #get:hover{
+    cursor: pointer;
+    background-color: white;
+    color:black
+ }
+ #anchor{
+    text-align: center;
+    color: white;
+ }
+ #anchor>a{
+    font-size: 20px;
+    text-decoration: underline;
+ }
+ .shyaman>img{
+  width: 80%;
+  margin-top: 70px;
+  margin-left: 90px;
+ }
+ .shy>img{
+     width: 50%;
+     margin-top: 60px;
+     margin-left: 200px;
+ }
+ .des{
+    display: block;
+    height: 50px;
+    width: 350px;
+    color: white ;
+    font-size: 20px;
+    background-color: #4ea819;
+    border-radius: 4px;
+    border: 0px;
+    margin-top: 20px;
+ 
+ }
+ .des>a{
+    text-decoration: none;
+    max-width: 300px;
+    border-radius: 5px;
+    
+    color: white;
+ }
+
+ .des:hover{
+    background-color: #43762b;;
+ }
+ .more{
+    display: block;
+    height: 50px;
+    width: 350px;
+    color: white ;
+    font-size: 20px;
+    background-color: #4ea819;
+    border-radius: 4px;
+    border: 0px;
+    margin-top: 20px;
+ 
+ }
+ .more>a{
+    text-decoration: none;
+    max-width: 300px;
+    border-radius: 5px;
+    
+    color: white;
+ }
+
+ .more:hover{
+    background-color: #43762b;;
+ }
+ .read{
+    display: block;
+    height: 50px;
+    width: 180px;
+    color: white ;
+    font-size: 20px;
+    background-color: #4ea819;
+    border-radius: 4px;
+    border: 0px;
+    margin-top: 20px;
+ 
+ }
+ .read>a{
+    text-decoration: none;
+    max-width: 300px;
+    border-radius: 5px;
+    
+    color: white;
+ }
+
+ .read:hover{
+    background-color: #43762b;;
+ }
+ .more{
+    display: block;
+    height: 50px;
+    width: 340px;
+    color: white ;
+    font-size: 20px;
+    background-color: #4ea819;
+    border-radius: 4px;
+    border: 0px;
+    margin-top: 20px;
+ 
+ }
+ .more>a{
+    text-decoration: none;
+    max-width: 300px;
+    border-radius: 5px;
+    
+    color: white;
+ }
+
+ .more:hover{
+    background-color: #43762b;;
+ }
+ .web{
+    display: block;
+    height: 50px;
+    width: 400px;
+    color: white ;
+    font-size: 20px;
+    background-color: #4ea819;
+    border-radius: 4px;
+    border: 0px;
+    margin-top: 20px;
+ 
+ }
+ .web>a{
+    text-decoration: none;
+    max-width: 300px;
+    border-radius: 5px;
+    
+    color: white;
+ }
+
+ .web:hover{
+    background-color: #43762b;;
+ }
+ .desktop{
+    display: block;
+    height: 50px;
+    width: 350px;
+    color: white ;
+    font-size: 20px;
+    background-color: #4ea819;
+    border-radius: 4px;
+    border: 0px;
+    margin-top: 20px;
+ 
+ }
+ .desktop>a{
+    text-decoration: none;
+    max-width: 300px;
+    border-radius: 5px;
+    
+    color: white;
+ }
+
  .desktop:hover{
     background-color: #43762b;;
+ }
+ .offline{
+    display: block;
+    height: 50px;
+    width: 430px;
+    color: white ;
+    font-size: 20px;
+    background-color: #4ea819;
+    border-radius: 4px;
+    border: 0px;
+    margin-top: 20px;
+ 
+ }
+ .offline>a{
+    text-decoration: none;
+    max-width: 300px;
+    border-radius: 5px;
+    
+    color: white;
+ }
+
+ .offline:hover{
+    background-color: #43762b;;
+ }
+ .project{
+    display: block;
+    height: 50px;
+    width: 450px;
+    color: white ;
+    font-size: 20px;
+    background-color: #4ea819;
+    border-radius: 4px;
+    border: 0px;
+    margin-top: 20px;
+ 
+ }
+ .project>a{
+    text-decoration: none;
+    max-width: 300px;
+    border-radius: 5px;
+    
+    color: white;
+ }
+
+ .project:hover{
+    background-color: #43762b;;
+ }
+ @media all and (min-width:320px) and (max-width:599px){
+    #mid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+    }
+    #cont{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       grid-template-rows: auto;
+       
+         
+     }
+     #middle{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       grid-template-rows: auto;
+         
+     }
+     #lower{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+       
+    }
+    .good{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       grid-template-rows: auto;
+        
+    }
+    #upset{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    /* #blue{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    } */
+    .ram{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        
+     }
+     .fan{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      grid-template-rows: auto;
+     }
+     .rama{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+     }
+     .integrate{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+      
+     }
+     .searchbar{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        height: 60px;;
+        max-width: 50%;
+        /* border: 1px solid red; */
+        margin: auto;
+     }
+     .first{
+   
+       
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        
+        /* border: 1px solid red; */
+      
+        position: none;
+       
+    }
+ }
+ @media all and (min-width:600px) and (max-width:1000px){
+    #cont{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       grid-template-rows: auto;
+       
+         
+     }
  }
