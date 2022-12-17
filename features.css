@@ -974,6 +974,30 @@
         position: none;
        
     }
+    #text{
+        margin-top: none;
+        position: none;
+        text-align: center;
+        color: white;
+        margin-left: 350px;
+       
+    }
+    .first{
+       
+        height: auto;
+        width: 39%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        
+        /* border: 1px solid red; */
+        margin-top: none;
+        margin-left: none;
+        position: none;
+       
+    }
+    #img{
+        position:none
+    }
  }
  @media all and (min-width:600px) and (max-width:1000px){
     #cont{
