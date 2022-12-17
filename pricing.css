@@ -500,96 +500,53 @@ button {
     text-align: center;
   }
 
-.slide_img img{
-    width: 80px;
-}
-
-.slide_h1{
-    width: 45%;
+  #slider{
+    width: 85%;
     margin: auto;
-    margin-top: 100px;
 }
-
-.h1_slides{
-    font-size: 38px;
-}
-
-.slideshow-container {
-    position: relative;
-    background: #f1f1f1f1;
-    width: 50%;
+.carousel-cell{
     display: grid;
-    /* grid-template-columns: repeat(3,1fr); */
-    margin-left: 400px;
-    
-  }
-  
-  .mySlides {
-    display: none;
-    padding: 80px;
-    text-align: center;
-  }
-  
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto; 
-    margin-top: -30px;
-    padding: 16px;
-    color: #888;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  .next {
-    position: absolute;
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-    color: white;
-  }
-  
-  .dot-container {
-      text-align: center;
-      padding: 20px;
-      background: #ddd;
-  }
-  
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-
-  q {font-style: italic;}
-  
-  .author {color: cornflowerblue;}
-
-  .slide_parent{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 50px;
+    width: 100%;
+    margin: auto;
+}
+.carousel-cell>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.carousel-cell>div>div{
     display: flex;
-    justify-content: space-evenly;
-    width: 300px;
-    
-  }
+    justify-content: left;
+}
+.carousel-cell>div>div>div>img{
+    border-radius: 50%;
+}
+.carousel-cell>div>p{
+    line-height: 25px;
+    font-size: 18px;
+    padding-bottom: 50px;
+    color: rgb(82, 72, 72);
+}
+.carousel-cell>div>div>div>p{
+    font-size: 18px;
+    color: rgb(82, 72, 72);
+}
+#secondbottom>h1{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 70px;
+    margin-bottom: 70px;
+}
+#secondbottom{
+    background-color: rgb(243, 239, 239);
+    margin-top: 50px;
+}
 
-  .slide_p{
-    width: 300px;
-  }
 
   @media only screen and (min-width: 500px) and (max-width: 898px) {
    #header_plan{
