@@ -733,6 +733,14 @@ padding: 110px;
    margin-bottom: 100px;
 }
 
+@media screen and  (max-width:600px) and (min-width:300px){
+    #desktime {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 35px;
+    }
+}
+    
 
 
 
