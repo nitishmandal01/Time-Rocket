@@ -38,9 +38,9 @@
     <div id="container">
         <h1>Log in to TimeRocket </h1>
         <p>Email</p>
-        <input type="email" name="" id="" placeholder="Type in your email address">
+        <input id="email" type="email" name="" id="" placeholder="Type in your email address">
         <p>Password</p>
-        <input type="text" name="" id="" placeholder="Create a Password">
+        <input id="pswrd" type="text" name="" id="" placeholder="Create a Password">
         <p></p>
         <button>LOGIN</button>
         <p>I forgot my password <br>
@@ -48,3 +48,23 @@
     </div>
 </body>
 </html>
+<script>
+let btn=document.querySelector("button");
+let array=JSON.parse(localStorage.getItem("userdata"))
+btn.addEventListener("click",(event)=>{
+    event.preventDefault()
+    let email=document.querySelector("#email").value;
+    let pswrd=document.querySelector("#pswrd").value;
+    let flag=false;
+    array.forEach(ele => {
+        if(ele.mail===email && ele.pwd===pswrd){
+            flag=true;
+        }        
+    });
+if(flag==true){
+        alert("login successful")
+    }else{
+        alert("Wrong Credentials")
+    } 
+})
+</script>
