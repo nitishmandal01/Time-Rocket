@@ -38,11 +38,11 @@
         <h1>Sign up for a FREE TimeRocket trial</h1>
         <p>Start tracking your productivity in less than a minute!</p>
         <p>First and last name</p>
-        <input type="text" name="" id="" placeholder="Type in your first and last name">
+        <input id="username" type="text" name="" id="" placeholder="Type in your first and last name">
         <p>Email</p>
-        <input type="email" name="" id="" placeholder="Type in your email address">
+        <input id="mail" type="email" name="" id="" placeholder="Type in your email address">
         <p>Password</p>
-        <input type="text" name="" id="" placeholder="Create a Password">
+        <input id="pwd" type="text" name="" id="" placeholder="Create a Password">
         <p></p>
         <button>SIGN UP FOR FREE</button>
         <p>Try free for 14 days. No credit card required. <br>
@@ -53,3 +53,17 @@
     </div>
 </body>
 </html>
+<script>
+    let btn=document.querySelector("button");
+    let arr=JSON.parse(localStorage.getItem("userdata")) || [];
+    btn.addEventListener("click",()=>{
+        let username=document.querySelector("#username").value;
+        let mail=document.querySelector("#mail").value;
+        let pwd=document.querySelector("#pwd").value;
+        let obj={username,mail,pwd};
+        arr.push(obj);
+        localStorage.setItem("userdata",JSON.stringify(arr));
+        alert("Signup Successfull")
+
+    })
+</script>
