@@ -25,10 +25,16 @@
 }
 
 #duration_button button {
-    background-color: #475056;
-    color: white;
+    /* background-color: #475056; */
+    color: rgb(8, 8, 8);
     padding: 15px 50px 15px 50px;
     border-radius: 5px;
+}
+
+#duration_button button:hover {
+cursor: pointer;
+    background-color: #475056;
+    color: white;
 }
 
 .header_logo {

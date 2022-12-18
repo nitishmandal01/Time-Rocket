@@ -1,0 +1,275 @@
+.nav-item {
+    margin-bottom: 0.25rem;
+    position: relative;
+}
+
+.main-sidebar__nav {
+    background-color: #262c30;
+    width: 20%;
+    height: 650px;
+    margin-bottom: 0.25rem;
+    position: fixed;
+}
+
+.main-sidebar li,
+.main-sidebar ul {
+    list-style: none;
+    margin: unset;
+    padding: unset;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.first {
+    background-color: #4ea819;
+    color: #f0f3f0;
+}
+
+body {
+    margin: 0;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.3;
+    color: #475056;
+    text-align: left;
+    background-color: #ebecec;
+}
+
+a {
+    text-decoration: none;
+    color: #70777b;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f0f3f0;
+}
+
+.nav_img {
+    margin-left: 30px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: baseline;
+    width: 100%;
+}
+
+.side-nav {
+    width: 18%;
+
+}
+
+.right-side-nav {
+    background-color: #4ea819;
+    height: 70px;
+    width: 82%;
+}
+
+.right-side-nav>p {
+    color: #e8f4e1;
+    text-align: center;
+}
+
+.btn-first {
+    margin: 0px 10px 0px 10px;
+    padding: 8px 10px 8px 10px;
+}
+
+.btn-first:hover {
+    cursor: pointer;
+}
+
+.btn-second {
+    padding: 8px 10px 8px 10px;
+    background-color: #4ea819;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.btn-second:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.menu-parent{
+    margin: 0px 0px 0px 30px;
+    background-color: white;
+    height: 50px;
+   padding-top: 15px;
+   display:flex
+}
+
+.menu-bar div {
+    width: 20px;
+    height: 3px;
+    background-color: #9b9fa3;
+    margin: 4px 0 0 10px;
+
+}
+
+.search-container {
+    float: left;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 5px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: left;
+    padding: 6px 10px;
+    margin-top: px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+
+  .input-search{
+    margin-left: 18px;
+    font-size: 17px;
+  }
+
+  .btn-search{
+    font-size: 17px;
+  }
+
+  .img-graph{
+    margin-left: 45px;
+  }
+  
+  .prductive{
+    height: 150px;
+    background-color: white;
+    margin-left: 45px;
+    
+  }
+
+  .productive-apps{
+    background-color: #4ea819;
+    height:30%;
+    color: white;
+    padding-left: 10px;
+  }
+
+  .no-data{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .prductive1{
+    height: 150px;
+    background-color: white;
+    margin-left: 45px;
+    
+  }
+
+  .productive-apps1{
+    background-color: #ff6600;
+    height:30%;
+    color: white;
+    padding-left: 10px;
+  }
+
+  .prductive2{
+    height: 150px;
+    background-color: white;
+    margin-left: 45px;
+    
+  }
+
+  .productive-apps2{
+    background-color: #999da1;
+    height:30%;
+    color: white;
+    padding-left: 10px;
+  }
+
+  .productive-apps3{
+    height:30%;
+    color: white;
+    padding-left: 10px;
+  }
+
+  .dot-cont{
+    display:flex;
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(63, 7, 218);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  .dot1 {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(199, 40, 165);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  .dot2 {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(7, 211, 218);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  .dot3 {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(226, 230, 7);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  .dot4 {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(187, 10, 231);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  .dot5 {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(61, 58, 68);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+
+  
+  
+
+  
