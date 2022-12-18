@@ -3,10 +3,11 @@
     width: 100%;
     /* border: 1px solid red; */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 }
 #nab{
     display: flex;
-    height: 100px;;
+    height: 100px;
     width: 100%;
     /* border: 1px solid blue; */
     margin: auto;
@@ -22,7 +23,7 @@
     margin-left: 60px;
  
 }
-#logo>img{
+#logo>a>img{
     width: 100%;
 }
 #menu{
