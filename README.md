@@ -1,4 +1,4 @@
-# Desktime.com
+# Time Rocket
 
 - Time Rocket is a clone of Desktime.com, which is a time tracking website, that provides all-in-one time tracker for businesses. 
 
